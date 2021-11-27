@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+        
+    font-size: 10pt;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.txt {
+    margin: 1%;
+    padding: 1%;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.questionhead {
+    float: left;
+    width: 100%;
+}
+
+.questionheadleft {
+    float: left;
+    width: 50%;
+}
+
+.questionheadright {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.questionbody {
+    padding: 1px;
+    border: 1px solid;
+}
+
+.answer {
+    background: white;
+    margin: 0px;
+    vertical-align:top;
+}
+
+.answercorrect {
+    background: #66FF99;
+    margin: 0px;
+    vertical-align:top;
+}
+
+.answerfail {
+    background: #FF9966;
+    margin: 0px;
+    vertical-align:top;
+}
